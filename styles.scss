@@ -1,0 +1,47 @@
+$color-fondo: pink;
+$color-principal: green;
+$color-secundario: brown;
+$color-texto: rgb(88, 0, 88);
+$color-ternario: yellow;  
+$color-texto2 : aqua ;  
+
+@mixin colorestexto {
+    color: $color-texto2;
+    font-size: 80px;
+    font-style: oblique;
+
+}
+
+body {
+
+    background-color: $color-fondo;
+}
+
+h1 {
+   @include colorestexto()
+}
+
+h2 {
+  @include colorestexto()
+}
+p{
+    color: $color-principal;
+}
+
+
+section {
+    .titulo {
+        font-family: fantasy;
+        font-size: 80px;
+        color: $color-secundario;
+    }
+    .subtitulo {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 100px;
+        color: $color-texto;
+    }
+    .subtitulo:hover {
+        // aqui le hacemos un hover , no olvides
+        color: pink;
+    }
+}

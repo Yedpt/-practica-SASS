@@ -1,0 +1,35 @@
+body {
+  background-color: pink;
+}
+
+h1 {
+  color: aqua;
+  font-size: 80px;
+  font-style: oblique;
+}
+
+h2 {
+  color: aqua;
+  font-size: 80px;
+  font-style: oblique;
+}
+
+p {
+  color: green;
+}
+
+section .titulo {
+  font-family: fantasy;
+  font-size: 80px;
+  color: brown;
+}
+section .subtitulo {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 100px;
+  color: rgb(88, 0, 88);
+}
+section .subtitulo:hover {
+  color: pink;
+}
+
+/*# sourceMappingURL=styles.css.map */
